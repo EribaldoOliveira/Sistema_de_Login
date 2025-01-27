@@ -1,0 +1,25 @@
+body {
+    background-color: #f2f2f2;
+    margin: 0; /* Remove margens padrão */
+    height: 100vh; /* Altura total da tela */
+    display: flex; /* Torna o body um contêiner flex */
+    align-items: center; /* Centraliza verticalmente */
+    justify-content: center; /* Centraliza horizontalmente */
+}
+
+.login {
+    width: 100%;
+    max-width: 400px; /* Largura máxima para o formulário */
+    padding: 20px; /* Espaçamento interno */
+    background-color: #fff; /* Fundo branco para contraste */
+    border-radius: 10px; /* Bordas arredondadas */
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); /* Sombra suave */
+}
+
+.btn {
+    display: flex; /* Torna o botão flexível */
+    align-items: center; /* Centraliza o conteúdo interno verticalmente */
+    justify-content: center; /* Centraliza o conteúdo interno horizontalmente */
+    width: 100%; /* Faz o botão ocupar a largura total do formulário */
+    padding: 10px; /* Espaçamento interno do botão */
+}
